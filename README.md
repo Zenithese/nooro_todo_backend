@@ -10,6 +10,8 @@ Ensure you have the following installed on your system:
 
 ---
 
+### Install dependencies
+
 Run the following command to install dependencies:
 
 ```bash
@@ -32,13 +34,13 @@ Generate the Prisma Client:
 npx prisma generate
 ```
 
----
-
 Apply database migrations:
 
 ```bash
 npx prisma migrate dev --name init
 ```
+
+---
 
 ### Run the project
 
@@ -50,5 +52,4 @@ npm run dev
 
 **For questions or suggestions, feel free to reach out**:
 
-Justin Andersen
 hire.justin.andersen@gmail.com
